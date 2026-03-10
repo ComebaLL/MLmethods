@@ -32,9 +32,12 @@
 
 7. Примеры изображений
 
-- Starforge_Infernal_Sword_a1b2c3.webp
-- Tabula_Rasa_Simple_Robe_f4e5d6.webp
-- Headhunter_Leather_Belt_z9y8x7.webp
+- 1HandShieldCounterattackSkillGem_337638.webp
+![1HandShieldCounterattackSkillGem_337638.webp](data\images\1HandShieldCounterattackSkillGem_337638.webp)
+- 85479_228698.webp
+![85479_228698.webp](data\images\85479_228698.webp)
+- AddedChaosDamage.png
+![AddedChaosDamage.png](data\images\AddedChaosDamage.png.png)
 
 8. Ключевые слова дата-сета
 

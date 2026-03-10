@@ -9,17 +9,20 @@ import config
 from utils import ensure_folders, load_state, save_state
 from html_loader import get_all_category_urls, fetch_page
 from image_loader import download_image
+from db_sync import sync_disk_to_db
+from database import db_manager
 
 async def main():
     ensure_folders()
     state = load_state()
+
 
     # Открытие соединения 
     async with aiohttp.ClientSession(headers=config.HEADERS) as session:
         
         # Сбор и скачивание HTML
         categories = await get_all_category_urls(session)
-        print(f" Обработка {len(categories)} страниц категорий...")
+        print(f" Обработка {len(categories)} страниц категорий")
         # Проходим циклом по каждой найденной категории для сохранения её страницы
         for url in categories:
             await fetch_page(session, url, state)
@@ -83,6 +86,15 @@ async def main():
         # Если в папке raw_html вообще не было найдено подходящих изображений
         else:
             print(" Данные для скачивания не найдены.")
+    
+    # Сохранение картинок в бд
+    try:
+        db_manager.connect()
+        await sync_disk_to_db(state)
+        save_state(state) # Финальное сохранение состояния
+    finally:
+        db_manager.close()
+        
 
 if __name__ == "__main__":
     try:

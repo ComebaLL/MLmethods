@@ -11,3 +11,6 @@ IMG_DIR = os.path.join(DATA_DIR, "images")
 STATE_FILE = os.path.join(DATA_DIR, "state.json")
 REQUEST_DELAY = 1.0
 MAX_CONCURRENT_DOWNLOADS = 15
+MONGO_URI = "mongodb://localhost:27017"
+DB_NAME = "poe_assets"
+COLLECTION_NAME = "unique_icons"

@@ -6,8 +6,9 @@ from urllib.parse import urljoin
 import config
 from utils import save_state
 
+
 async def get_all_category_urls(session):
-    """Собирает ссылки на подразделы уникалок."""
+    """Собирает ссылки на подразделы уникалок"""
     print(" Собираем список всех категорий ")
     try:
         async with session.get(config.BASE_URL) as response:
@@ -34,8 +35,9 @@ async def get_all_category_urls(session):
         print(f" Ошибка сбора категорий: {e}")
         return []
 
+
 async def fetch_page(session, url, state):
-    """Скачивает и сохраняет одну HTML страницу."""
+    """Скачивает и сохраняет одну HTML страницу"""
     # Проверяем в файле состояния, не была ли эта страница скачана в прошлые запуски
     if state["pages"].get(url) == "done": return
     
