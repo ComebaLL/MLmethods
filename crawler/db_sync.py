@@ -16,7 +16,7 @@ async def sync_disk_to_db(state):
         state["db_sync"] = {}
 
     for file_name in files:
-        # Если файл уже в базе (согласно стейту), пропускаем
+        # Если файл уже в базе, пропускаем
         if state["db_sync"].get(file_name) == "synced":
             continue
 
