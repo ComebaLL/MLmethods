@@ -1,7 +1,0 @@
-[project]
-name = "mlflow-experiments-20260415t155124z-3-001"
-version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.14"
-dependencies = []

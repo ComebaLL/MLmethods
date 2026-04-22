@@ -1,0 +1,15 @@
+artifact_uri: file:///content/drive/MyDrive/Colab_Notebooks/mlflow_experiments/0/126db3c006f0417aa1572176a2840b6a/artifacts
+deleted_time: 1776843734555
+end_time: 1776250211999
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 126db3c006f0417aa1572176a2840b6a
+run_name: SVM_GridSearch std
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776250211656
+status: 4
+tags: []
+user_id: root

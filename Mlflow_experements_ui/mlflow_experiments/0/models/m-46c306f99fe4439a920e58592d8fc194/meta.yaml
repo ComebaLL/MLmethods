@@ -1,0 +1,10 @@
+artifact_location: file:///content/drive/MyDrive/Colab_Notebooks/mlflow_experiments/0/models/m-46c306f99fe4439a920e58592d8fc194/artifacts
+creation_timestamp: 1776249344878
+experiment_id: '0'
+last_updated_timestamp: 1776249349979
+model_id: m-46c306f99fe4439a920e58592d8fc194
+model_type: null
+name: model
+source_run_id: cb97d941245e439598f708438d9c9c51
+status: 2
+status_message: null

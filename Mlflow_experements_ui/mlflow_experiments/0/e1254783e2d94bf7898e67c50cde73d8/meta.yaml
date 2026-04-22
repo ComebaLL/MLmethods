@@ -1,0 +1,14 @@
+artifact_uri: file:///content/drive/MyDrive/Colab_Notebooks/mlflow_experiments/0/e1254783e2d94bf7898e67c50cde73d8/artifacts
+end_time: 1776249172665
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e1254783e2d94bf7898e67c50cde73d8
+run_name: LogReg_RandomSearch
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776249166809
+status: 3
+tags: []
+user_id: root

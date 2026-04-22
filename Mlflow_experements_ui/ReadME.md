@@ -1,0 +1,1 @@
+mlflow ui --backend-store-uri "file:///C:/Users/gumba/Documents/GitHub/MLmethods/Mlflow_experements_ui/mlflow_experiments"

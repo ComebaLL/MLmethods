@@ -1,0 +1,14 @@
+artifact_uri: file:///content/drive/MyDrive/Colab_Notebooks/mlflow_experiments/0/817166ade50f428880d1cda2233744d3/artifacts
+end_time: 1776249960085
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 817166ade50f428880d1cda2233744d3
+run_name: KNN_GridSearch normal
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776249952844
+status: 3
+tags: []
+user_id: root

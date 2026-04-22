@@ -1,0 +1,23 @@
+artifact_path: file:///content/drive/MyDrive/Colab_Notebooks/mlflow_experiments/0/models/m-84e9e145f4674713aa3c81147ad717b1/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.13
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+    skops_trusted_types: null
+mlflow_version: 3.11.1
+model_id: m-84e9e145f4674713aa3c81147ad717b1
+model_size_bytes: 13395
+model_uuid: m-84e9e145f4674713aa3c81147ad717b1
+prompts: null
+run_id: 7d6fd327d5b24edfa85da9dd43b94fa4
+utc_time_created: '2026-04-08 11:44:13.468066'

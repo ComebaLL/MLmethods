@@ -1,0 +1,10 @@
+artifact_location: file:///content/drive/MyDrive/Colab_Notebooks/mlflow_experiments/0/models/m-73364e8c762d4a6cb9fa368513c80226/artifacts
+creation_timestamp: 1775648610107
+experiment_id: '0'
+last_updated_timestamp: 1775648610748
+model_id: m-73364e8c762d4a6cb9fa368513c80226
+model_type: null
+name: funny-ray-120
+source_run_id: 79b35e68676d4ab7abff0b1529ffd24b
+status: 3
+status_message: null

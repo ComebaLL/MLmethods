@@ -1,0 +1,1 @@
+{'C': <scipy.stats._distn_infrastructure.rv_continuous_frozen object at 0x7e8d33b82b40>, 'penalty': ['l1', 'l2', 'elasticnet', None], 'solver': ['saga'], 'l1_ratio': <scipy.stats._distn_infrastructure.rv_continuous_frozen object at 0x7e8d495c9640>, 'class_weight': [None, 'balanced'], 'max_iter': <scipy.stats._distn_infrastructure.rv_discrete_frozen object at 0x7e8d33b83260>}

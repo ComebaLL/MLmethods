@@ -1,0 +1,1 @@
+{'svm_model__C': [0.001, 0.01, 0.1, 1.0], 'tree_model__max_depth': [3, 5, 7, None], 'nb_model__var_smoothing': array([1.e-07, 1.e-08, 1.e-09])}

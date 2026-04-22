@@ -1,0 +1,14 @@
+artifact_uri: file:///content/drive/MyDrive/Colab_Notebooks/mlflow_experiments/0/d08a4ff28753407ea378ec730effd13e/artifacts
+end_time: 1776839226490
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d08a4ff28753407ea378ec730effd13e
+run_name: Voting_Ensemble_SVM_NB_Tree
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776839218222
+status: 3
+tags: []
+user_id: root

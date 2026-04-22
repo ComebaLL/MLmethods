@@ -1,0 +1,14 @@
+artifact_uri: file:///content/drive/MyDrive/Colab_Notebooks/mlflow_experiments/0/fc6f7ef22dc845998982e48f21d7fbc1/artifacts
+end_time: 1776838233548
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fc6f7ef22dc845998982e48f21d7fbc1
+run_name: GaussianNB
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776838227001
+status: 3
+tags: []
+user_id: root
