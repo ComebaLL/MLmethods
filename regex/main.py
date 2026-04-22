@@ -33,17 +33,26 @@ def read_csv_text(file_path: Path) -> str:
 
 def main() -> None:
     csv_path = Path(__file__).with_name("news (1).csv")
+    report_path = Path(__file__).with_name("matches_report.txt")
 
     if not csv_path.exists():
         print(f"Файл не найден: {csv_path}")
         return
 
     text = read_csv_text(csv_path)
+    report_lines = []
 
-    # Считаем, сколько раз каждый regex-шаблон встретился в файле.
+    # Проходим по всем шаблонам и считаем количество совпадений в тексте CSV.
     for name, pattern in PATTERNS.items():
         matches_count = len(re.findall(pattern, text))
-        print(f"{name}: {matches_count}")
+        # Формируем ту же строку, которую печатаем в консоль и сохраняем в отчет.
+        line = f"{name}: {matches_count}"
+        print(line)
+        report_lines.append(line)
+
+    # Собираем список строк в один текст с переносами и записываем в файл отчета.
+    report_path.write_text("\n".join(report_lines), encoding="utf-8")
+    print(f"\nСписок совпадений сохранен в файл: {report_path.name}")
 
 
 if __name__ == "__main__":

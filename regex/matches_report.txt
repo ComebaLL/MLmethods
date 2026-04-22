@@ -1,0 +1,6 @@
+дата дд.мм.гггг: 105
+слово PlayStation: 909
+слова Xiaomi|Apple|Mail.Ru: 16916
+Телефон: 5
+Email: 5
+URLs: 229
