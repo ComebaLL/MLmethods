@@ -1,0 +1,14 @@
+artifact_uri: file:///content/drive/MyDrive/Colab_Notebooks/mlflow_experiments/0/531b6249e31a4704a574d26922f811ad/artifacts
+end_time: 1776858201344
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 531b6249e31a4704a574d26922f811ad
+run_name: RF_model
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776858194526
+status: 3
+tags: []
+user_id: root

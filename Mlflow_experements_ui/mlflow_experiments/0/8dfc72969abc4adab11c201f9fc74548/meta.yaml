@@ -1,0 +1,14 @@
+artifact_uri: file:///content/drive/MyDrive/Colab_Notebooks/mlflow_experiments/0/8dfc72969abc4adab11c201f9fc74548/artifacts
+end_time: 1776857462581
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8dfc72969abc4adab11c201f9fc74548
+run_name: Bagging_SVM_normal
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776857457525
+status: 3
+tags: []
+user_id: root

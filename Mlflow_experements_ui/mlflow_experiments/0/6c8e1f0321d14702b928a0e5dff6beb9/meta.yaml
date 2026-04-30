@@ -1,9 +1,8 @@
 artifact_uri: file:///content/drive/MyDrive/Colab_Notebooks/mlflow_experiments/0/6c8e1f0321d14702b928a0e5dff6beb9/artifacts
-deleted_time: 1776843734556
 end_time: 1776251088859
 entry_point_name: ''
 experiment_id: '0'
-lifecycle_stage: deleted
+lifecycle_stage: active
 run_id: 6c8e1f0321d14702b928a0e5dff6beb9
 run_name: DecisionTreeClassifire std
 source_name: ''

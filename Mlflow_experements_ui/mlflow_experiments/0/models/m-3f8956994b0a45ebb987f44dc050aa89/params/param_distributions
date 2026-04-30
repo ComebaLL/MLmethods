@@ -1,0 +1,1 @@
+{'n_estimators': [5, 10, 20], 'max_samples': [0.7, 0.8, 1.0], 'estimator__C': [0.001, 0.01, 0.1, 1, 10], 'estimator__kernel': ['rbf', 'linear']}

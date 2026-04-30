@@ -1,9 +1,8 @@
 artifact_uri: file:///content/drive/MyDrive/Colab_Notebooks/mlflow_experiments/0/238b58ae496449b988c40f49cf8f3250/artifacts
-deleted_time: 1776843734545
 end_time: 1776249017511
 entry_point_name: ''
 experiment_id: '0'
-lifecycle_stage: deleted
+lifecycle_stage: active
 run_id: 238b58ae496449b988c40f49cf8f3250
 run_name: LogReg_RandomSearch
 source_name: ''
